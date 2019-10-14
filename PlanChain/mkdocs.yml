@@ -1,0 +1,66 @@
+site_name: PlanChain Documentation
+#theme: cinder
+#theme:
+#  name: 'material'
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+  
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+site_author: Jimmy Schouppe
+copyright: Copyright &copy; 2017 - 2019 SafeTech BVBA
+repo_url: https://github.com/PlanChain/Documentation
+favicon: 
+    - 'assets/images/favicon.ico'
+extra_css: 
+    - 'css/extra.css'
+logo:
+    icon: "img/favicon.ico"
+    #icon: 'cloud'
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/'
+    - type: 'twitter'
+      link: 'https://twitter.com/'
+    
+
+google_analytics:
+  - ''
+  - 'auto'
